@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100vw;
+    background-color: #ff3618;
+    border-bottom: 5px solid #fed90f;
+}
+
+header h1{
+    color: white;
+}
+
+main{
+    height: calc(100vh - 85px);
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    background-color: blue;
+    align-items: center;
+}
+
+.carta{
+    width: 25%;
+    height: 25%;
+    background-color: red;
+}
